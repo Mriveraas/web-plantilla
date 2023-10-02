@@ -1,0 +1,92 @@
+/* Estilos más neutros y profesionales */
+body, h1, ul, li, p, form {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F4F4F4;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul {
+  background-color: #444;
+  overflow: hidden;
+  color: white;
+  font-weight: bold;
+}
+
+/* Cambiar el color de los enlaces del menú a blanco */
+nav ul li a {
+  color: white;
+}
+
+nav ul li {
+  float: left;
+  display: block;
+  padding: 14px 20px;
+}
+
+main {
+  margin: 15px;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  padding: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+  display: inline-block;
+  width: 150px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #222;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+  
+  
